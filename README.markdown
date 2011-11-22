@@ -10,11 +10,11 @@ script in to great javascript / coffeescript.
 Take beats.js and translate it in to a reusable 'flipper' widget for
 displaying Swatch Internet Time.
 
-The original JS is stolen mercilessly from: [http://atomicnoggin.ca/test/flip-clock.html?reset]
+The original JS is stolen mercilessly from: [Flip Clock](http://atomicnoggin.ca/test/flip-clock.html?reset)
 
 It is pretty nice JS, but I think we can do better. 
 
-Plus, I want a [http://en.wikipedia.org/wiki/Swatch_Internet_Time clock]
+Plus, I want a [Swatch Internet Clock](http://en.wikipedia.org/wiki/Swatch_Internet_Time clock)
 
 ## To do ##
 
