@@ -1,0 +1,113 @@
+#hou,#min,#sec {
+  width:200px;
+  position:relative;
+  float:left;	
+  margin:20px;
+  height:250px;
+}
+.flip {
+  position:absolute;
+  height:100px;
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size:160px;
+  line-height:200px;
+  text-align:center;
+  overflow:hidden;
+  width:200px;
+  color:white;
+  background-color:black;
+  border:2px #999 outset;
+}
+.top {
+  top:0px;
+  -moz-transform-origin:center bottom;
+  -webkit-transform-origin:center bottom;
+  -o-transform-origin:center bottom;
+  transform-origin:center bottom;
+  -moz-border-radius:10px 10px 0 0;
+  -webkit-border-radius:10px 10px 0 0;
+  border-radius:10px 10px 0 0;
+  border-bottom-width:1px;
+
+}
+.bottom {
+  top:103px;
+  -moz-transform-origin:center top;
+  -webkit-transform-origin:center top;
+  -o-transform-origin:center top;
+  transform-origin:center top;
+  -moz-border-radius:0 0 10px 10px;
+  -webkit-border-radius:0 0 10px 10px;
+  border-radius:0 0 10px 10px;
+  border-top-width:1px;
+
+}
+.bottom SPAN {
+  display:block;
+  margin-top:	-100px;
+}
+.ap {
+  font-weight:bold;
+  font-size:20px;
+  line-height:25px;
+  position:absolute;
+  left:30px;
+  top:170px;
+}
+.front {
+  z-index:200;
+}
+.back {
+  z-index:0;
+}
+.hide {
+  display:none;	
+}
+.ani1 .top.front {
+  -moz-transform:skew(5deg) scaleY(.90);
+  -webkit-transform:skew(5deg) scaleY(.90);
+  -o-transform:skew(5deg) scaleY(.90);
+  transform:skew(5deg) scaleY(.90);
+}
+.ani2 .top.front {
+  -moz-transform:skew(10deg) scaleY(.60);
+  -webkit-transform:skew(10deg) scaleY(.60);
+  -o-transform:skew(10deg) scaleY(.60);
+  transform:skew(10deg) scaleY(.60);
+}
+.ani3 .top.front {
+  -moz-transform:skew(20deg) scaleY(.30);
+  -webkit-transform:skew(20deg) scaleY(.30);
+  -o-transform:skew(20deg) scaleY(.30);
+  transform:skew(20deg) scaleY(.30);
+}
+.ani4 .top.front {
+  -moz-transform:skew(50deg) scaleY(0.10);
+  -webkit-transform:skew(50deg) scaleY(0.10);
+  -o-transform:skew(50deg) scaleY(0.10);
+  transform:skew(50deg) scaleY(0.10);
+}
+.ani4 .bottom.front {
+  -moz-transform:skew(-50deg) scaleY(0.10);
+  -webkit-transform:skew(-50deg) scaleY(0.10);
+  -o-transform:skew(-50deg) scaleY(0.10);
+  transform:skew(-50deg) scaleY(0.10);
+}
+.ani3 .bottom.front {
+  -moz-transform:skew(-20deg) scaleY(.30);
+  -webkit-transform:skew(-20deg) scaleY(.30);
+  -o-transform:skew(-20deg) scaleY(.30);
+  transform:skew(-20deg) scaleY(.30);
+}
+.ani2 .bottom.front {
+  -moz-transform:skew(-10deg) scaleY(.60);
+  -webkit-transform:skew(-10deg) scaleY(.60);
+  -o-transform:skew(-10deg) scaleY(.60);
+  transform:skew(-10deg) scaleY(.60);
+}
+.ani1 .bottom.front {
+  -moz-transform:skew(-5deg) scaleY(.90);
+  -webkit-transform:skew(-5deg) scaleY(.90);
+  -o-transform:skew(-5deg) scaleY(.90);
+  transform:skew(-5deg) scaleY(.90);
+}
